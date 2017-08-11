@@ -65,14 +65,9 @@ require_once 'template/nav.php';
                          alt="Telenor Myanmar"/>
 
                 </div>
-                <div class="social-login-sec">
-                    <a class="fbl" href="signup.html#" onclick="checkLoginState();">Continue with
-                        Facebook</a>
-                    <a class="inl" href="signup.html#" id="linked-in">Continue with Linkedin</a>
-                    <span>OR</span>
-                </div>
+
             </div>
-            <span>Or Sign Up a New Account using your Email</span>
+
 
             <div class="tit">
                 <div id="BodyPlaceHolder_divMsg" class="divMsg"></div>
