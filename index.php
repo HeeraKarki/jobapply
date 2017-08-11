@@ -1,4 +1,5 @@
 <?php
+require_once 'autoload.php';
 require_once 'template/head.php';
 require_once 'template/nav.php';
 require_once 'template/slider.php';

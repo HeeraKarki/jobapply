@@ -10,11 +10,11 @@
     <title>
         Jobs in Myanmar | Heera
     </title>
-    <link rel="shortcut icon" href="asset/images/jn.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="asset/css_New/style.min-v=1.2.36.css"/>
-    <link rel="stylesheet" type="text/css" href="asset/css_New/font-awesome.min-v=1.2.36.css"/>
-    <link rel="stylesheet" type="text/css" href="asset/css_New/popupclean.min-v=1.2.36.css"/>
-    <script type="text/javascript" src="asset/jquery.min.js"></script>
-    <script type="text/javascript"  src="asset/jquery-ui.min.js"></script>
-    <meta property="og:image" content="asset/images/sample_profile.JPG"/>
+    <link rel="shortcut icon" href="<?php echo $base_url; ?>asset/images/jn.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>asset/css_New/style.min-v=1.2.36.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>asset/css_New/font-awesome.min-v=1.2.36.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>asset/css_New/popupclean.min-v=1.2.36.css"/>
+    <script type="text/javascript" src="<?php echo $base_url; ?>asset/jquery.min.js"></script>
+    <script type="text/javascript"  src="<?php echo $base_url; ?>asset/jquery-ui.min.js"></script>
+    <meta property="og:image" content="<?php echo $base_url; ?>asset/images/sample_profile.JPG"/>
 </head>
