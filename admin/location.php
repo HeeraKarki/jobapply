@@ -40,17 +40,17 @@ require_once '../template/nav.php';
 
 
             </div>
-            <h1>Add Job Function</h1>
+            <h1>Add Location</h1>
             <div class="tit">
                 <div id="BodyPlaceHolder_divMsg" class="divMsg"></div>
             </div>
 
-            <form ACTION="../function/add_jf.php" method="post">
+            <form action="../function/addlocation.php" method="post">
                 <div class="wrap-input form-group">
                     <label>
-                        <span id="BodyPlaceHolder_lblExperienceLevel">Job Function</span>
+                        <span id="BodyPlaceHolder_lblExperienceLevel">Location</span>
                     </label>
-                    <input type="text" name="addjf" value="<?php ?>">
+                    <input type="text" name="Location" value="<?php ?>">
 
                 </div>
 

@@ -2,4 +2,4 @@
 define('host','localhost');
 define('username','root');
 define('password','root');
-define('dbname','job');
+define('dbname','jobapply');
