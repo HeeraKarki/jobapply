@@ -1,7 +1,7 @@
 <?php
 require_once 'autoload.php';
-require_once 'template/head.php';
-require_once 'template/nav.php';
+require_once '../template/head.php';
+require_once '../template/nav.php';
 ?>
 
     <style>
@@ -197,5 +197,5 @@ require_once 'template/nav.php';
     </div>
 
 <?php
-require_once 'template/foot.php';
+require_once '../template/foot.php';
 ?>
