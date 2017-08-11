@@ -151,27 +151,10 @@ require_once 'template/nav.php';
 
         <div class="login-section">
             <div class="login-wrap">
-                <div class="inner-login-wrap signup-form">
-                    <h3>Sign In with your Job Seeker Account</h3>
+                <div class="inner-login-wrap signup-form" style="height: 230px;">
+                    <h3>Admin Login</h3>
 
-                    <div class="alert-danger" id="facebook-fail-alert" style="display: none">
-                        <strong>Ooops</strong>, Your facebook log in failed. Please try again or log in using an
-                        email address only.
-                    </div>
 
-                    <div class="col-sm-12 alert alert-danger" id="divEmployerNotAllow" style="display:none;">
-                        <strong>Ooops</strong>, Employer don't allow to log-in with social media. Please use email
-                        instead.
-                    </div>
-
-                    <div class="simple-signup-logos">
-                        <div class="social-login-sec full-width">
-                            <a class="fbl" href="login.html#" onclick="checkLoginState();">Continue with
-                                Facebook</a>
-                            <a class="inl" id="linked-in" href="login.html#">Continue with Linkedin</a>
-                            <span>OR</span>
-                        </div>
-                    </div>
                     <div class="login-email-block wrap-input form-group">
                         <div id="BodyPlaceHolder_divAlert" class="tit" style="">
                             <span id="BodyPlaceHolder_lblTitle"><font color="#F0794E" size="3"></font></span>
@@ -179,9 +162,7 @@ require_once 'template/nav.php';
                         <label><span id="BodyPlaceHolder_LabelEmail">Email</span></label>
                         <i class="fa fa-envelope"></i>
                         <input name="ctl00$BodyPlaceHolder$txtEmail" type="text" id="BodyPlaceHolder_txtEmail"
-                               class="form-control" placeholder="E-mail" required="" maxlength="50"
-                               data-ajax="https://bunnyjs.com/api/users/email-exists/?q={value}"
-                               onKeyPress="javascript:if (event.keyCode == 13) $(&#39;#ContentPlaceHolder1_btnSignIn&#39;).click();"/>
+                               class="form-control" placeholder="E-mail" required="" maxlength="50"/>
 
 
                     </div>
@@ -190,13 +171,11 @@ require_once 'template/nav.php';
                         <i class="fa fa-lock"></i>
                         <input name="ctl00$BodyPlaceHolder$txtLoginPassword" type="password"
                                id="BodyPlaceHolder_txtLoginPassword" class="form-control" placeholder="Password"
-                               required="" minlength="4" maxlength="18"
-                               onKeyPress="javascript:if (event.keyCode == 13) $(&#39;#ContentPlaceHolder1_btnSignIn&#39;).click();"/>
+                               required="" minlength="4" maxlength="18"/>
 
                     </div>
                     <div class="wrap-input">
                         <input type="submit" name="ctl00$BodyPlaceHolder$btnSignIn" value="Log In"
-                               onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BodyPlaceHolder$btnSignIn&quot;, &quot;&quot;, true, &quot;m&quot;, &quot;&quot;, false, false))"
                                id="BodyPlaceHolder_btnSignIn" class="login-button"/>
                         <div>
 
@@ -210,10 +189,7 @@ require_once 'template/nav.php';
                         <center><a href="forgot-password.html" class="forget-pass" style="float:none;">Forgot your
                                 password?</a></center>
                     </div>
-                    <span>Don't have an account?</span>
-                    <div class="wrap-input">
-                        <a href="signup.html" class="signup-button">Register</a>
-                    </div>
+
                 </div>
             </div>
         </div>
